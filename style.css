@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#7F00FF,#E100FF);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#7F00FF,#E100FF);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#7F00FF,#E100FF);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#7F00FF,#E100FF);
+  /* Standard syntax (must be last) */
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.container{
+  width: 40%;
+  min-width: 320px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container *{
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.inputs-wraper{
+  background: #080808;
+  border: 1.5px solid white;
+  padding: 30px 25px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3)
+}
+
+input,
+button{
+  height: 50px;
+  background: #black;
+  color: #080808;
+  font-weight: 500;
+  border-radius: 15px;
+  
+}
+
+input{
+  width: 100%;
+  padding: 0 20px;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+button{
+  width: 100%;
+}
+
+.outputs-wraper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.outputs-wraper div{
+  background: #080808;
+  color: #ffffff;
+  text-align: center;
+  height: 85px;
+  width: 85px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+  display: grid;
+  place-items: center;
+  padding: 10px 0;
+}
+
+span{
+  font-size: 25px;
+  font-weight:500;
+  border: 2px solid white;
+}
+
+p{
+  font-size: 12px;
+  font-weight: 400;
+  color: #707070
+}
+
+.creator-name, .app-fun{
+  background: #080808;
+  border: 1.5px solid white;
+  margin: 40px 0;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3)
+}
+.creator-name h1{
+  font-size: 20px;
+  font-weight: 500
+}
+.creator-name{
+width: auto;
+}
+.app-fun h1{
+  font-size: 30px;
+  font-weight: 500;
+}
+.calculateBtn:focus{
+ background-color: #c00a7a;
+ transition: 0.5s;
+ color: white;
+ font-weight: bold;
+}
